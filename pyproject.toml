@@ -1,0 +1,21 @@
+[project]
+name = "glutagram"
+version = "0.1.0"
+description = "Automate posting e621 content to a Telegram channel via aioe621."
+readme = "README.md"
+authors = [
+    { name = "penggrin12", email = "miner.sidor@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aioe621>=0.10.0",
+    "aiogram>=3.31.0",
+    "anyio>=4.15.1",
+    "apscheduler>=3.11.3",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
