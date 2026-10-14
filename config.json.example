@@ -1,0 +1,33 @@
+{
+  "e621_user_agent": "PLEASE_ENTER_YOUR_USERNAME_HERE penggrin12/glutagram@github",
+  "chats": {
+    "-100123123123": {
+      "watching": [
+        "feet_focus",
+        "score:>=10"
+      ],
+      "blacklist": [
+        "young -rating:s",
+        "feral -rating:s"
+      ]
+    }
+  },
+  "global_blacklist": [
+    "animated",
+    "flash",
+    "type:webm",
+    "type:webp",
+    "type:gif",
+    "gore",
+    "feces",
+    "urine",
+    "hyper",
+    "vore",
+    "diaper",
+    "fart",
+    "anal_prolapse",
+    "vomit",
+    "vomiting",
+    "extreme_size_difference"
+  ]
+}
